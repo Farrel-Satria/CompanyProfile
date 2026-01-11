@@ -1,19 +1,102 @@
-🏢 NexaTech Solutions — Corporate WebsiteA sophisticated, high-performance corporate platform built for NexaTech Solutions. This project demonstrates a modern approach to business web presence using Next.js 14 and Tailwind CSS.🌟 Key FeaturesNext.js 14 App Router: Leveraging the latest React patterns for optimized routing and performance.Tailwind Architecture: Utility-first styling for a sleek, consistent, and responsive UI.SEO Optimized: Pre-configured metadata, Open Graph tags, and semantic HTML for search engine visibility.Dynamic UI Components: Interactive elements including smooth scrolling, mobile-optimized navigation, and reusable cards.Business Ready: Custom copywriting focused on conversion and professional branding.🛠️ Tech StackCategoryTechnologyFrameworkNext.js 14 (App Router)LibraryReact 18StylingTailwind CSSFontsGoogle Fonts (Poppins & Inter)IconsLucide React / Heroicons📁 Project StructurePlaintextnexatech-solutions/
-├── app/                  # Main Application logic
-│   ├── about/            # Company background
-│   ├── services/         # Service offerings
-│   ├── projects/         # Portfolio showcase
-│   ├── clients/          # Testimonials & Partners
-│   ├── contact/          # Contact & Maps
-│   └── layout.jsx        # Root Layout & Metadata
-├── components/           # Atomic UI Components
-│   ├── layout/           # Navbar, Footer
-│   └── sections/         # Hero, Cards, Testimonials
-└── public/               # Static assets (Images, Icons)
-🚀 Getting StartedPrerequisitesNode.js 18.17 or laternpm (comes with Node) or pnpmInstallation & SetupClone the repository:Bashgit clone https://github.com/your-username/nexatech-solutions.git
+# 🏢 NexaTech Solutions — Corporate Website
+
+![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-blue?logo=tailwind-css)
+![License](https://img.shields.io/badge/License-Portfolio-green)
+
+A **sophisticated, high-performance corporate platform** built for **NexaTech Solutions**.  
+This project showcases a modern business web presence using **Next.js 14** with **Tailwind CSS**.
+
+---
+
+## 🌟 Key Features
+
+- **Next.js 14 App Router** — Optimized routing and performance using the latest React patterns.  
+- **Tailwind Architecture** — Utility-first styling for a sleek, consistent, responsive UI.  
+- **SEO Optimized** — Pre-configured metadata, Open Graph tags, and semantic HTML.  
+- **Dynamic UI Components** — Smooth scrolling, mobile-optimized navigation, reusable cards.  
+- **Business Ready** — Custom copywriting focused on conversion and professional branding.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category    | Technology                        |
+|------------|----------------------------------|
+| Framework  | Next.js 14 (App Router)           |
+| Library    | React 18                          |
+| Styling    | Tailwind CSS                      |
+| Fonts      | Google Fonts (Poppins & Inter)   |
+| Icons      | Lucide React / Heroicons          |
+
+---
+
+## 📁 Project Structure
+
+- **nexatech-solutions/**
+  - **app/** – Main Application logic
+    - **about/** – Company background
+    - **services/** – Service offerings
+    - **projects/** – Portfolio showcase
+    - **clients/** – Testimonials & Partners
+    - **contact/** – Contact & Maps
+    - **layout.jsx** – Root Layout & Metadata
+  - **components/** – Atomic UI Components
+    - **layout/** – Navbar, Footer
+    - **sections/** – Hero, Cards, Testimonials
+  - **public/** – Static assets (Images, Icons)
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** 18.17 or later  
+- **npm** (comes with Node) or **pnpm**
+
+### Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/nexatech-solutions.git
 cd nexatech-solutions
-Install dependencies:Bashnpm install
-Start the development server:Bashnpm run dev
-View the site:Open http://localhost:3000 to see the result.🚢 DeploymentThe project is optimized for Vercel deployment.Push your code to a Git provider (GitHub, GitLab, Bitbucket).Connect your repository to Vercel.The build settings are automatically detected.For manual production builds:Bashnpm run build
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm run dev
+Open in browser: http://localhost:3000
+
+🚢 Deployment
+Optimized for Vercel:
+
+Push code to GitHub, GitLab, or Bitbucket
+
+Connect repository to Vercel
+
+Build settings auto-detected
+
+Manual production build:
+
+bash
+Copy code
+npm run build
 npm run start
-📝 LicenseThis project is for portfolio purposes. Feel free to use the structure as a template for your own projects.👤 Author: Farrel Satria Suryanda LinkedIn: [@Farrel Satria Suryanda: yourwebsite.com](https://www.linkedin.com/in/farrel-satria-suryanda-037135308/)
+Live demo: https://nexatech-demo.vercel.app (replace with your actual link)
+
+📝 License
+This project is for portfolio purposes. Feel free to use the structure as a template for your own projects.
+
+👤 Author
+Farrel Satria Suryanda
+LinkedIn: @Farrel Satria Suryanda
+Portfolio: portofolioarrel.vercel.app
